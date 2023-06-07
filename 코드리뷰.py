@@ -414,7 +414,7 @@ class Canvas(QGraphicsView):
             self.scale(new_scale, new_scale)
 
         else:
-            # Ctrl 키가 눌려있지 않은 경우에는 기본 동작 수행
+            # Ctrl 키가 눌려있지 않은 경우에는 기본 동작 수행!!
             super().wheelEvent(event)
 
 
